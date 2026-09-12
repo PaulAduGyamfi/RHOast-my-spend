@@ -1,0 +1,8 @@
+{
+  "burger king": {
+    "name": "Burger King",
+    "cat": "dining",
+    "note": "Burger King is a global fast-food chain specializing in flame-broiled hamburgers and other quick-service meals.",
+    "confidence": "high"
+  }
+}

@@ -1,0 +1,202 @@
+KNOWN = {
+    # ---------------------------------------------------------- delivery
+    "Doordash":     {"name": "DoorDash",      "cat": "delivery",   "note": "food delivery, 15-30% markup vs walking in"},
+    "Uber Eats":    {"name": "Uber Eats",     "cat": "delivery",   "note": "food delivery, plus service and delivery fees"},
+    "Grubhub":      {"name": "Grubhub",       "cat": "delivery",   "note": "food delivery"},
+    "Seamless":     {"name": "Seamless",      "cat": "delivery",   "note": "food delivery, Grubhub-owned"},
+    "Caviar":       {"name": "Caviar",        "cat": "delivery",   "note": "upscale food delivery"},
+    "Postmates":    {"name": "Postmates",     "cat": "delivery",   "note": "food delivery, Uber-owned"},
+    "Instacart":    {"name": "Instacart",     "cat": "delivery",   "note": "grocery delivery, marked-up shelf prices plus fees"},
+    "Gopuff":       {"name": "Gopuff",        "cat": "delivery",   "note": "convenience delivery, impulse-driven"},
+
+    # --------------------------------------------------------- streaming
+    "Netflix":      {"name": "Netflix",       "cat": "streaming",  "note": "video subscription"},
+    "Hulu":         {"name": "Hulu",          "cat": "streaming",  "note": "video subscription"},
+    "Max.com":      {"name": "Max",           "cat": "streaming",  "note": "video subscription, formerly HBO Max"},
+    "Disney Plus":  {"name": "Disney+",       "cat": "streaming",  "note": "video subscription"},
+    "Disney+":      {"name": "Disney+",       "cat": "streaming",  "note": "video subscription"},
+    "Paramount":    {"name": "Paramount+",    "cat": "streaming",  "note": "video subscription"},
+    "Peacock":      {"name": "Peacock",       "cat": "streaming",  "note": "video subscription"},
+    "Apple TV":     {"name": "Apple TV+",     "cat": "streaming",  "note": "video subscription"},
+    "Spotify":      {"name": "Spotify",       "cat": "streaming",  "note": "music subscription"},
+    "Youtube":      {"name": "YouTube",       "cat": "streaming",  "note": "video subscription, often Premium or TV"},
+    "Audible":      {"name": "Audible",       "cat": "streaming",  "note": "audiobook subscription, credits expire"},
+    "Crunchyroll":  {"name": "Crunchyroll",   "cat": "streaming",  "note": "anime subscription"},
+    "Tidal":        {"name": "Tidal",         "cat": "streaming",  "note": "music subscription"},
+
+    # ---------------------------------------------------------- software
+    "Notion":       {"name": "Notion",        "cat": "software",   "note": "notes and docs subscription"},
+    "Evernote":     {"name": "Evernote",      "cat": "software",   "note": "notes subscription"},
+    "Obsidian":     {"name": "Obsidian",      "cat": "software",   "note": "notes sync subscription"},
+    "Dropbox":      {"name": "Dropbox",       "cat": "software",   "note": "cloud storage subscription"},
+    "Google Storage": {"name": "Google One",  "cat": "software",   "note": "cloud storage subscription"},
+    "Apple.com/Bill": {"name": "Apple",       "cat": "software",   "note": "App Store or iCloud, bundles many subscriptions"},
+    "Openai":       {"name": "OpenAI",        "cat": "software",   "note": "AI subscription"},
+    "Anthropic":    {"name": "Anthropic",     "cat": "software",   "note": "AI subscription"},
+    "Adobe":        {"name": "Adobe",         "cat": "software",   "note": "creative subscription, annual contract billed monthly"},
+    "Figma":        {"name": "Figma",         "cat": "software",   "note": "design subscription"},
+    "Github":       {"name": "GitHub",        "cat": "software",   "note": "developer subscription"},
+    "1Password":    {"name": "1Password",     "cat": "software",   "note": "password manager subscription"},
+    "Nordvpn":      {"name": "NordVPN",       "cat": "software",   "note": "VPN subscription, aggressive auto-renew"},
+    "Linkedin":     {"name": "LinkedIn",      "cat": "software",   "note": "Premium subscription"},
+    "Canva":        {"name": "Canva",         "cat": "software",   "note": "design subscription"},
+
+    # --------------------------------------------------------- groceries
+    "Whole Foods":  {"name": "Whole Foods",   "cat": "groceries",  "note": "groceries, premium pricing"},
+    "Trader Joe":   {"name": "Trader Joe's",  "cat": "groceries",  "note": "groceries"},
+    "Key Food":     {"name": "Key Food",      "cat": "groceries",  "note": "groceries"},
+    "Wegmans":      {"name": "Wegmans",       "cat": "groceries",  "note": "groceries"},
+    "Safeway":      {"name": "Safeway",       "cat": "groceries",  "note": "groceries"},
+    "Kroger":       {"name": "Kroger",        "cat": "groceries",  "note": "groceries"},
+    "Publix":       {"name": "Publix",        "cat": "groceries",  "note": "groceries"},
+    "Aldi":         {"name": "Aldi",          "cat": "groceries",  "note": "groceries, discount"},
+    "Costco":       {"name": "Costco",        "cat": "groceries",  "note": "bulk groceries, annual membership"},
+    "Fairway":      {"name": "Fairway Market","cat": "groceries",  "note": "groceries"},
+    "Gristedes":    {"name": "Gristedes",     "cat": "groceries",  "note": "groceries"},
+
+    # ------------------------------------------------------------ coffee
+    "Starbucks":    {"name": "Starbucks",     "cat": "coffee",     "note": "coffee chain"},
+    "Blue Bottle":  {"name": "Blue Bottle",   "cat": "coffee",     "note": "specialty coffee, $6+ per cup"},
+    "Joe Coffee":   {"name": "Joe Coffee",    "cat": "coffee",     "note": "NYC coffee chain"},
+    "Devocion":     {"name": "Devoción",      "cat": "coffee",     "note": "Brooklyn specialty coffee"},
+    "Variety Coffee": {"name": "Variety Coffee", "cat": "coffee",  "note": "Brooklyn coffee roaster"},
+    "Dunkin":       {"name": "Dunkin'",       "cat": "coffee",     "note": "coffee chain"},
+    "Peet":         {"name": "Peet's Coffee", "cat": "coffee",     "note": "coffee chain"},
+    "La Colombe":   {"name": "La Colombe",    "cat": "coffee",     "note": "specialty coffee"},
+
+    # ------------------------------------------------------- restaurants
+    "Chipotle":     {"name": "Chipotle",      "cat": "restaurant", "note": "fast casual"},
+    "Sweetgreen":   {"name": "Sweetgreen",    "cat": "restaurant", "note": "fast casual salads, $16+ average"},
+    "Cava":         {"name": "Cava",          "cat": "restaurant", "note": "fast casual"},
+    "Pret A Manger": {"name": "Pret A Manger","cat": "restaurant", "note": "fast casual"},
+    "Shake Shack":  {"name": "Shake Shack",   "cat": "restaurant", "note": "fast casual burgers"},
+    "Mcdonald":     {"name": "McDonald's",    "cat": "restaurant", "note": "fast food"},
+    "Chick-Fil-A":  {"name": "Chick-fil-A",   "cat": "restaurant", "note": "fast food"},
+    "Taco Bell":    {"name": "Taco Bell",     "cat": "restaurant", "note": "fast food"},
+    "Panera":       {"name": "Panera",        "cat": "restaurant", "note": "fast casual, pushes a sip club subscription"},
+    "Wingstop":     {"name": "Wingstop",      "cat": "restaurant", "note": "fast food"},
+    "Xi'An Famous": {"name": "Xi'an Famous Foods", "cat": "restaurant", "note": "NYC noodle chain"},
+    "Joe's Pizza":  {"name": "Joe's Pizza",   "cat": "restaurant", "note": "NYC pizza"},
+
+    # ------------------------------------------------------------- bars
+    "Total Wine":   {"name": "Total Wine",    "cat": "alcohol",    "note": "liquor retail"},
+    "Bevmo":        {"name": "BevMo",         "cat": "alcohol",    "note": "liquor retail"},
+    "Drizly":       {"name": "Drizly",        "cat": "alcohol",    "note": "alcohol delivery"},
+
+    # --------------------------------------------------------- transport
+    "Uber *":       {"name": "Uber",          "cat": "rideshare",  "note": "ride hailing, surge pricing"},
+    "Lyft":         {"name": "Lyft",          "cat": "rideshare",  "note": "ride hailing"},
+    "Via *":        {"name": "Via",           "cat": "rideshare",  "note": "shared ride hailing"},
+    "Revel":        {"name": "Revel",         "cat": "rideshare",  "note": "electric ride hailing"},
+    "Mta*":         {"name": "MTA",           "cat": "transit",    "note": "NYC subway and bus"},
+    "Citibike":     {"name": "Citi Bike",     "cat": "transit",    "note": "bike share, annual membership"},
+    "Amtrak":       {"name": "Amtrak",        "cat": "travel",     "note": "rail"},
+    "Delta Air":    {"name": "Delta",         "cat": "travel",     "note": "airline"},
+    "United Airlines": {"name": "United",     "cat": "travel",     "note": "airline"},
+    "Jetblue":      {"name": "JetBlue",       "cat": "travel",     "note": "airline"},
+    "Airbnb":       {"name": "Airbnb",        "cat": "travel",     "note": "lodging, cleaning fees on top"},
+    "Booking.com":  {"name": "Booking.com",   "cat": "travel",     "note": "lodging"},
+    "Shell Oil":    {"name": "Shell",         "cat": "fuel",       "note": "fuel"},
+    "Exxonmobil":   {"name": "ExxonMobil",    "cat": "fuel",       "note": "fuel"},
+
+    # ------------------------------------------------------------ retail
+    "Amzn Mktp":    {"name": "Amazon",        "cat": "retail",     "note": "online marketplace, descriptor hides what was bought"},
+    "Amazon.com":   {"name": "Amazon",        "cat": "retail",     "note": "online marketplace"},
+    "Amazon Prime": {"name": "Amazon Prime",  "cat": "subscription", "note": "annual membership"},
+    "Target":       {"name": "Target",        "cat": "retail",     "note": "general merchandise"},
+    "Walmart":      {"name": "Walmart",       "cat": "retail",     "note": "general merchandise"},
+    "Rei ":         {"name": "REI",           "cat": "retail",     "note": "outdoor gear, often bought alongside a new hobby"},
+    "Lululemon":    {"name": "Lululemon",     "cat": "retail",     "note": "athletic apparel, premium pricing"},
+    "Nike":         {"name": "Nike",          "cat": "retail",     "note": "athletic apparel"},
+    "Uniqlo":       {"name": "Uniqlo",        "cat": "retail",     "note": "apparel"},
+    "Zara":         {"name": "Zara",          "cat": "retail",     "note": "fast fashion"},
+    "Sephora":      {"name": "Sephora",       "cat": "retail",     "note": "cosmetics"},
+    "Ikea":         {"name": "IKEA",          "cat": "retail",     "note": "furniture"},
+    "Best Buy":     {"name": "Best Buy",      "cat": "retail",     "note": "electronics"},
+    "Home Depot":   {"name": "Home Depot",    "cat": "retail",     "note": "hardware"},
+    "Etsy":         {"name": "Etsy",          "cat": "retail",     "note": "online marketplace"},
+
+    # ----------------------------------------------------------- fitness
+    "Equinox":      {"name": "Equinox",       "cat": "fitness",    "note": "premium gym, annual contract"},
+    "Planet Fitness": {"name": "Planet Fitness", "cat": "fitness", "note": "budget gym, hard to cancel"},
+    "Blink Fitness": {"name": "Blink Fitness","cat": "fitness",    "note": "budget gym"},
+    "Crunch Fitness": {"name": "Crunch",      "cat": "fitness",    "note": "gym, annual contract"},
+    "Classpass":    {"name": "ClassPass",     "cat": "fitness",    "note": "class credits, expire monthly"},
+    "Peloton":      {"name": "Peloton",       "cat": "fitness",    "note": "hardware plus required monthly subscription"},
+    "Soulcycle":    {"name": "SoulCycle",     "cat": "fitness",    "note": "class packs, $35+ per class"},
+    "Barry's":      {"name": "Barry's",       "cat": "fitness",    "note": "class packs"},
+
+    # --------------------------------------------------------- utilities
+    "Con Edison":   {"name": "Con Edison",    "cat": "utilities",  "note": "electricity and gas"},
+    "National Grid": {"name": "National Grid","cat": "utilities",  "note": "gas"},
+    "Verizon":      {"name": "Verizon",       "cat": "telecom",    "note": "phone or internet"},
+    "T-Mobile":     {"name": "T-Mobile",      "cat": "telecom",    "note": "phone"},
+    "At&T":         {"name": "AT&T",          "cat": "telecom",    "note": "phone or internet"},
+    "Spectrum":     {"name": "Spectrum",      "cat": "telecom",    "note": "internet"},
+
+    # ---------------------------------------------------------- learning
+    "Babbel":       {"name": "Babbel",        "cat": "education",  "note": "language app, annual plan, low completion rates"},
+    "Duolingo":     {"name": "Duolingo",      "cat": "education",  "note": "language app subscription"},
+    "Masterclass":  {"name": "MasterClass",   "cat": "education",  "note": "annual subscription, low completion rates"},
+    "Coursera":     {"name": "Coursera",      "cat": "education",  "note": "course subscription"},
+    "Udemy":        {"name": "Udemy",         "cat": "education",  "note": "courses, perpetual sale pricing"},
+
+    # ------------------------------------------------------------ gaming
+    "Steamgames":   {"name": "Steam",         "cat": "gaming",     "note": "game purchases"},
+    "Playstation":  {"name": "PlayStation",   "cat": "gaming",     "note": "games and subscription"},
+    "Xbox":         {"name": "Xbox",          "cat": "gaming",     "note": "games and Game Pass subscription"},
+    "Nintendo":     {"name": "Nintendo",      "cat": "gaming",     "note": "games and online subscription"},
+
+    # --------------------------------------------------------------- pet
+    "Chewy":        {"name": "Chewy",         "cat": "pet",        "note": "pet supplies, autoship by default"},
+    "Petco":        {"name": "Petco",         "cat": "pet",        "note": "pet supplies"},
+
+    # ------------------------------------------- sensitive: do not roast
+    "Cvs/Pharmacy": {"name": "CVS Pharmacy",  "cat": "pharmacy",   "note": "pharmacy"},
+    "Walgreens":    {"name": "Walgreens",     "cat": "pharmacy",   "note": "pharmacy"},
+    "Duane Reade":  {"name": "Duane Reade",   "cat": "pharmacy",   "note": "pharmacy"},
+    "Rite Aid":     {"name": "Rite Aid",      "cat": "pharmacy",   "note": "pharmacy"},
+    "Goodrx":       {"name": "GoodRx",        "cat": "pharmacy",   "note": "prescription discounts"},
+    "One Medical":  {"name": "One Medical",   "cat": "medical",    "note": "primary care membership"},
+    "Quest Diagnostics": {"name": "Quest Diagnostics", "cat": "medical", "note": "lab work"},
+    "Labcorp":      {"name": "Labcorp",       "cat": "medical",    "note": "lab work"},
+    "Zocdoc":       {"name": "Zocdoc",        "cat": "medical",    "note": "appointment booking"},
+    "Betterhelp":   {"name": "BetterHelp",    "cat": "medical",    "note": "therapy subscription"},
+    "Talkspace":    {"name": "Talkspace",     "cat": "medical",    "note": "therapy subscription"},
+    "Planned Parenthood": {"name": "Planned Parenthood", "cat": "medical", "note": "health services"},
+    "Legalzoom":    {"name": "LegalZoom",     "cat": "legal",      "note": "legal services"},
+    "Bright Horizons": {"name": "Bright Horizons", "cat": "childcare", "note": "childcare"},
+    "Care.com":     {"name": "Care.com",      "cat": "childcare",  "note": "care marketplace subscription"},
+    "Sofi":         {"name": "SoFi",          "cat": "lender",     "note": "loan servicing"},
+    "Navient":      {"name": "Navient",       "cat": "lender",     "note": "student loan servicing"},
+    "Nelnet":       {"name": "Nelnet",        "cat": "lender",     "note": "student loan servicing"},
+    "Affirm":       {"name": "Affirm",        "cat": "lender",     "note": "buy now pay later installment"},
+    "Klarna":       {"name": "Klarna",        "cat": "lender",     "note": "buy now pay later installment"},
+    "Afterpay":     {"name": "Afterpay",      "cat": "lender",     "note": "buy now pay later installment"},
+    "Gofundme":     {"name": "GoFundMe",      "cat": "charity",    "note": "donation"},
+    "Red Cross":    {"name": "American Red Cross", "cat": "charity", "note": "donation"},
+}
+
+SENSITIVE_CATS = {"medical", "pharmacy", "legal", "childcare", "lender",
+                  "religious", "charity", "adult", "recovery"}
+
+# Bare terminal or transfer strings. There is no merchant behind these — the
+# correct output is "could not identify", never a guess.
+REFUSE_PREFIXES = ("SQ *", "TST*", "TST *", "POS DEBIT", "PAYPAL *INST",
+                   "VENMO", "ZELLE", "CASH APP*", "WPY*", "IC*")
+
+# Reseller and payment-processor prefixes that DO carry a real product name
+# after the separator. Strip the prefix and research what's left — this is
+# where zombie subscriptions hide.
+RESELLER_PREFIXES = ("CLEVERBRIDGE*", "PADDLE.NET*", "FS *", "FASTSPRING*",
+                     "DRI*", "CKO*", "2CO*", "SP *", "FASTSPRING ")
+
+# Bank-internal lines. No merchant to look up, but they still belong in the
+# roast — fees and cash withdrawals are spending.
+BANK_INTERNAL = {
+    "ATM":          {"name": "ATM withdrawal", "cat": "cash",      "note": "cash out, untraceable after this point"},
+    "LATE FEE":     {"name": "Late fee",       "cat": "bank fee",  "note": "charged for a missed payment date"},
+    "SERVICE FEE":  {"name": "Account fee",    "cat": "bank fee",  "note": "monthly maintenance charge"},
+    "OVERDRAFT":    {"name": "Overdraft fee",  "cat": "bank fee",  "note": "charged for spending past the balance"},
+    "INTEREST CHARGE": {"name": "Interest",    "cat": "bank fee",  "note": "carried a balance"},
+}
