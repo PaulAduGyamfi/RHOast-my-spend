@@ -10,13 +10,28 @@ def normalize(r):
     }
 
 def from_plaid(api_response):
-    return [normalize({
-    "date": t["date"],
-    "name": t["merchant_name"],
-    "transaction_type": t["transaction_code"],
-    "original_description": t.get("original_description"),
-    "amount": abs(float(t["amount"])),
-}) for t in api_response["added"]]
+    rows = []
+    for t in api_response["added"]:
+        if t.get("pending"):
+            continue
+
+        amount = float(t["amount"])
+        if amount <= 0:
+            continue
+
+        name = t.get("merchant_name") or t.get("name")
+        if not name or not str(name).strip():
+            continue
+
+        date = t["date"]
+        rows.append(normalize({
+            "date": date.isoformat() if hasattr(date, "isoformat") else date,
+            "name": str(name),
+            "transaction_type": t.get("transaction_code"),
+            "original_description": t.get("original_description"),
+            "amount": amount,
+        }))
+    return rows
 
 def from_sampleJson(path="sample.json"):
     with open(path) as f:
@@ -26,7 +41,7 @@ def from_sampleJson(path="sample.json"):
 def load_transactions(live=False, path="sample.json"):
     """The only function the rest of the pipeline calls."""
     if live:
-        from plaid_client import fetch_transactions   # write this when you wire Plaid
+        from plaid_client import fetch_transactions
         return from_plaid(fetch_transactions())
     return from_sampleJson(path)
 

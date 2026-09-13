@@ -1,3 +1,8 @@
 .venv/
 .env
 __pycache__/
+
+enriched.json
+statement.json
+roast.mp3
+.DS_Store

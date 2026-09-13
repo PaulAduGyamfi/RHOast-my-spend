@@ -4,5 +4,95 @@
     "cat": "dining",
     "note": "Burger King is a global fast-food chain specializing in flame-broiled hamburgers and other quick-service meals.",
     "confidence": "high"
+  },
+  "Brooklyn Boulders Gowanus": {
+    "name": "Brooklyn Boulders Gowanus",
+    "cat": "fitness",
+    "note": "A climbing gym offering bouldering, fitness classes, and related amenities.",
+    "confidence": "high"
+  },
+  "The Long Island Bar": {
+    "name": "The Long Island Bar",
+    "cat": "restaurant",
+    "note": "A bar and restaurant serving cocktails and American comfort food like burgers and cheese curds.",
+    "confidence": "high"
+  },
+  "CCLEANER": {
+    "name": "CCleaner",
+    "cat": "software",
+    "note": "Sells a PC/Mac/mobile system cleaning and optimization utility, often as a subscription.",
+    "confidence": "high"
+  },
+  "Rose S Brooklyn": {
+    "name": "Rose S Brooklyn",
+    "cat": "restaurant",
+    "note": "Likely a restaurant or eatery located in Brooklyn, possibly named Rose's.",
+    "confidence": "low"
+  },
+  "Clem S Bar": {
+    "name": "Clem's Bar",
+    "cat": "alcohol",
+    "note": "Appears to be a bar/tavern establishment serving drinks based on the name pattern typical of bar businesses.",
+    "confidence": "low"
+  },
+  "Uber": {
+    "name": "Uber",
+    "cat": "rideshare",
+    "note": "Uber provides ridesharing services connecting riders with drivers.",
+    "confidence": "high"
+  },
+  "Fun": {
+    "name": "The Fun Company",
+    "cat": "retail",
+    "note": "Retail store selling toys, games, and teacher supplies both in-store and online.",
+    "confidence": "low"
+  },
+  "Credit Card Payment": {
+    "name": null,
+    "cat": "transfer",
+    "note": "Generic credit card bill payment transaction, not a specific merchant.",
+    "confidence": "high"
+  },
+  "Cd Deposit Initial": {
+    "name": null,
+    "cat": "transfer",
+    "note": "Initial deposit into a certificate of deposit account, a bank savings transfer rather than a purchase.",
+    "confidence": "high"
+  },
+  "Touchstone Climbing": {
+    "name": "Touchstone Climbing",
+    "cat": "fitness",
+    "note": "Operates climbing and fitness gyms across California offering climbing, yoga, and weight training.",
+    "confidence": "high"
+  },
+  "Tectra": {
+    "name": "Tectra",
+    "cat": "unknown",
+    "note": "Ambiguous merchant possibly related to software development or real estate, unclear from bank statement context.",
+    "confidence": "low"
+  },
+  "Madison Bicycle Shop": {
+    "name": "Madison Bicycle Shop",
+    "cat": "retail",
+    "note": "A bicycle shop selling and servicing bikes and related gear.",
+    "confidence": "high"
+  },
+  "Kfc": {
+    "name": "KFC",
+    "cat": "restaurant",
+    "note": "Fast food chicken restaurant chain known for fried chicken",
+    "confidence": "high"
+  },
+  "Automatic Payment Thank": {
+    "name": null,
+    "cat": "transfer",
+    "note": "Automatic payment applied from a bank account to pay off a credit card or bill balance.",
+    "confidence": "low"
+  },
+  "Electronic Creditgusto Pay": {
+    "name": "Gusto",
+    "cat": "transfer",
+    "note": "Gusto is a payroll platform and this transaction is an electronic payroll deposit or payment via their service.",
+    "confidence": "high"
   }
 }

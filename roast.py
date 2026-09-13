@@ -1,6 +1,6 @@
-import os, json
-from anthropic import Anthropic
-ai = Anthropic()
+import json
+
+from llm import ai, text_of
 
 SYSTEM = """You are a stand-up comedian roasting someone's spending.
 
@@ -13,6 +13,8 @@ The 7 core pillars of a hilarious joke
 6. Truth/recognition — "That's ridiculous…but that's actually true."
 7. Economy and placement — remove everything between the audience and the laugh. 
 A punchline should generally arrive with as little unnecessary language as possible.
+
+Roast must be short and concise, yet still hit the punch line
 
 RULES
 - Every joke must cite a specific number or merchant from the findings.
@@ -27,9 +29,9 @@ RULES
 
 def write_roast(findings, profile):
     msg = ai.messages.create(
-        model="claude-sonnet-5", max_tokens=500,
+        model="claude-sonnet-5", max_tokens=16000,
         system=SYSTEM,
         messages=[{"role":"user","content":
             f"Findings:\n{json.dumps(findings, indent=1)}\n\n"
             f"Inferred profile:\n{json.dumps(profile, indent=1)}"}])
-    return msg.content[0].text.strip()
+    return text_of(msg)

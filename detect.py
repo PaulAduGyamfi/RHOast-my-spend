@@ -1,5 +1,4 @@
-SENSITIVE_CATS = {"medical", "pharmacy", "legal", "childcare", "lender",
-                  "religious", "charity", "adult", "recovery"}
+from categories import FEE_CATS, SENSITIVE_CATS
  
  
 def drop_sensitive(txns):
@@ -116,7 +115,7 @@ def find_fees(txns):
     """Money that bought nothing."""
     fees = []
     for t in txns:
-        if t["cat"] in ("bank fee", "late fee"):
+        if t["cat"] in FEE_CATS:
             fees.append(t)
  
     if not fees:
@@ -131,7 +130,6 @@ def find_fees(txns):
 
 
 def headline_amount(finding):
-    """The number a finding is judged on. Findings carry different keys."""
     for key in ("annual_cost", "total", "amount"):
         if key in finding:
             return finding[key]
@@ -139,11 +137,6 @@ def headline_amount(finding):
 
 
 def run_all(txns):
-    """Every detector, one list. Biggest number first.
-
-    Takes enriched transactions (each needs date, name, amount, cat).
-    Returns a flat list of finding dicts, each tagged with "type".
-    """
     txns = drop_sensitive(txns)
     groups = group_by_merchant(txns)
 

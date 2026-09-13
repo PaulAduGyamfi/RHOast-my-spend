@@ -3,7 +3,8 @@ import json
 from collections import Counter
 from research import research
 from ingest import load_transactions
-from known_merchants import KNOWN, REFUSE_PREFIXES, BANK_INTERNAL, RESELLER_PREFIXES, SENSITIVE_CATS
+from categories import SENSITIVE_CATS
+from known_merchants import KNOWN, REFUSE_PREFIXES, BANK_INTERNAL, RESELLER_PREFIXES
 
 _KEYS = list(KNOWN)
 
@@ -48,23 +49,73 @@ def resolve(descriptor):
     return "research", clean(descriptor)
 
 
-def enrich(txns):
+UNIDENTIFIED = {"name": None, "cat": "unknown", "note": ""}
+
+
+def unique_descriptors(txns):
+    seen, order = set(), []
+    for t in txns:
+        if t["name"] not in seen:
+            seen.add(t["name"])
+            order.append(t["name"])
+    return order
+
+
+def identify(descriptor):
+    status, payload = resolve(descriptor)
+
+    if status == "research":
+        try:
+            return research(payload), "research"
+        except Exception as exc:
+            print(f"  research failed for {payload!r}: {type(exc).__name__}: {exc}")
+            return dict(UNIDENTIFIED), "failed"
+    if status == "refuse":
+        return dict(UNIDENTIFIED), "refuse"
+    return payload, status
+
+
+def enrich_stream(txns):
+    descriptors = unique_descriptors(txns)
+    total = len(descriptors)
+    resolved = {}
+
+    for i, descriptor in enumerate(descriptors, 1):
+        info, source = identify(descriptor)
+        resolved[descriptor] = info
+        hidden = is_sensitive(info)
+
+        yield {
+            "type": "merchant",
+            "i": i,
+            "total": total,
+            "source": "filtered" if hidden else source,
+            "descriptor": None if hidden else descriptor,
+            "name": None if hidden else (info.get("name") or descriptor),
+            "cat": None if hidden else info.get("cat"),
+            "note": "" if hidden else (info.get("note") or ""),
+            "txn_count": sum(1 for t in txns if t["name"] == descriptor),
+        }
+
     out = []
     for t in txns:
-        status, payload = resolve(t["name"])
-
-        if status == "research":
-            info = research(payload)
-        elif status == "refuse":
-            info = {"name": None, "cat": "unknown", "note": ""}
-        else:
-            info = payload
-
+        info = resolved[t["name"]]
         if is_sensitive(info):
             continue
+        row = {**t, **info}
+        if not row.get("name"):
+            row["name"] = t["name"]
+        out.append(row)
 
-        out.append({**t, **info})
-    return out
+    yield {"type": "done", "enriched": out,
+           "kept": len(out), "dropped": len(txns) - len(out)}
+
+
+def enrich(txns):
+    for event in enrich_stream(txns):
+        if event["type"] == "done":
+            return event["enriched"]
+    return []
  
  
 def is_sensitive(entry):

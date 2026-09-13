@@ -1,11 +1,413 @@
 [
   {
-    "date": "2026-06-15",
-    "name": "Cava",
-    "transaction_type": "purchase",
-    "original_description": "CAVA MEZZE GRILL NEW YORK NY 3929",
-    "amount": 14.97,
+    "date": "2026-09-11",
+    "name": "Uber",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 5.4,
+    "cat": "rideshare",
+    "note": "Uber provides ridesharing services connecting riders with drivers.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-09-08",
+    "name": "McDonald's",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 12.0,
     "cat": "restaurant",
-    "note": "fast casual"
+    "note": "fast food"
+  },
+  {
+    "date": "2026-09-08",
+    "name": "Starbucks",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 4.33,
+    "cat": "coffee",
+    "note": "coffee chain"
+  },
+  {
+    "date": "2026-09-07",
+    "name": "The Fun Company",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 89.4,
+    "cat": "retail",
+    "note": "Retail store selling toys, games, and teacher supplies both in-store and online.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-08-25",
+    "name": "Uber",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 6.33,
+    "cat": "rideshare",
+    "note": "Uber provides ridesharing services connecting riders with drivers.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-09-11",
+    "name": "CREDIT CARD 3333 PAYMENT *//",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 25.0,
+    "cat": "transfer",
+    "note": "Generic credit card bill payment transaction, not a specific merchant.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-09-10",
+    "name": "CD DEPOSIT .INITIAL.",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 1000.0,
+    "cat": "transfer",
+    "note": "Initial deposit into a certificate of deposit account, a bank savings transfer rather than a purchase.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-09-09",
+    "name": "Touchstone Climbing",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 78.5,
+    "cat": "fitness",
+    "note": "Operates climbing and fitness gyms across California offering climbing, yoga, and weight training.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-08-27",
+    "name": "United",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "travel",
+    "note": "airline"
+  },
+  {
+    "date": "2026-08-22",
+    "name": "Tectra",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "unknown",
+    "note": "Ambiguous merchant possibly related to software development or real estate, unclear from bank statement context.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-08-21",
+    "name": "Madison Bicycle Shop",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "retail",
+    "note": "A bicycle shop selling and servicing bikes and related gear.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-08-21",
+    "name": "KFC",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "restaurant",
+    "note": "Fast food chicken restaurant chain known for fried chicken",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-08-21",
+    "name": "AUTOMATIC PAYMENT - THANK",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 2078.5,
+    "cat": "transfer",
+    "note": "Automatic payment applied from a bank account to pay off a credit card or bill balance.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-09-10",
+    "name": "Gusto",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 5850.0,
+    "cat": "transfer",
+    "note": "Gusto is a payroll platform and this transaction is an electronic payroll deposit or payment via their service.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-08-12",
+    "name": "Uber",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 5.4,
+    "cat": "rideshare",
+    "note": "Uber provides ridesharing services connecting riders with drivers.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-08-09",
+    "name": "McDonald's",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 12.0,
+    "cat": "restaurant",
+    "note": "fast food"
+  },
+  {
+    "date": "2026-08-09",
+    "name": "Starbucks",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 4.33,
+    "cat": "coffee",
+    "note": "coffee chain"
+  },
+  {
+    "date": "2026-08-08",
+    "name": "The Fun Company",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 89.4,
+    "cat": "retail",
+    "note": "Retail store selling toys, games, and teacher supplies both in-store and online.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-07-26",
+    "name": "Uber",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 6.33,
+    "cat": "rideshare",
+    "note": "Uber provides ridesharing services connecting riders with drivers.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-07-13",
+    "name": "Uber",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 5.4,
+    "cat": "rideshare",
+    "note": "Uber provides ridesharing services connecting riders with drivers.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-07-10",
+    "name": "McDonald's",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 12.0,
+    "cat": "restaurant",
+    "note": "fast food"
+  },
+  {
+    "date": "2026-07-10",
+    "name": "Starbucks",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 4.33,
+    "cat": "coffee",
+    "note": "coffee chain"
+  },
+  {
+    "date": "2026-07-09",
+    "name": "The Fun Company",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 89.4,
+    "cat": "retail",
+    "note": "Retail store selling toys, games, and teacher supplies both in-store and online.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-06-26",
+    "name": "Uber",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 6.33,
+    "cat": "rideshare",
+    "note": "Uber provides ridesharing services connecting riders with drivers.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-08-12",
+    "name": "CREDIT CARD 3333 PAYMENT *//",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 25.0,
+    "cat": "transfer",
+    "note": "Generic credit card bill payment transaction, not a specific merchant.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-07-13",
+    "name": "CREDIT CARD 3333 PAYMENT *//",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 25.0,
+    "cat": "transfer",
+    "note": "Generic credit card bill payment transaction, not a specific merchant.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-08-11",
+    "name": "CD DEPOSIT .INITIAL.",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 1000.0,
+    "cat": "transfer",
+    "note": "Initial deposit into a certificate of deposit account, a bank savings transfer rather than a purchase.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-07-12",
+    "name": "CD DEPOSIT .INITIAL.",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 1000.0,
+    "cat": "transfer",
+    "note": "Initial deposit into a certificate of deposit account, a bank savings transfer rather than a purchase.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-08-10",
+    "name": "Touchstone Climbing",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 78.5,
+    "cat": "fitness",
+    "note": "Operates climbing and fitness gyms across California offering climbing, yoga, and weight training.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-07-28",
+    "name": "United",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "travel",
+    "note": "airline"
+  },
+  {
+    "date": "2026-07-23",
+    "name": "Tectra",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "unknown",
+    "note": "Ambiguous merchant possibly related to software development or real estate, unclear from bank statement context.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-07-22",
+    "name": "Madison Bicycle Shop",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "retail",
+    "note": "A bicycle shop selling and servicing bikes and related gear.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-07-22",
+    "name": "KFC",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "restaurant",
+    "note": "Fast food chicken restaurant chain known for fried chicken",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-07-22",
+    "name": "AUTOMATIC PAYMENT - THANK",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 2078.5,
+    "cat": "transfer",
+    "note": "Automatic payment applied from a bank account to pay off a credit card or bill balance.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-07-11",
+    "name": "Touchstone Climbing",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 78.5,
+    "cat": "fitness",
+    "note": "Operates climbing and fitness gyms across California offering climbing, yoga, and weight training.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-06-28",
+    "name": "United",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "travel",
+    "note": "airline"
+  },
+  {
+    "date": "2026-06-23",
+    "name": "Tectra",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "unknown",
+    "note": "Ambiguous merchant possibly related to software development or real estate, unclear from bank statement context.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-06-22",
+    "name": "Madison Bicycle Shop",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "retail",
+    "note": "A bicycle shop selling and servicing bikes and related gear.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-06-22",
+    "name": "KFC",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 500.0,
+    "cat": "restaurant",
+    "note": "Fast food chicken restaurant chain known for fried chicken",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-06-22",
+    "name": "AUTOMATIC PAYMENT - THANK",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 2078.5,
+    "cat": "transfer",
+    "note": "Automatic payment applied from a bank account to pay off a credit card or bill balance.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-08-11",
+    "name": "Gusto",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 5850.0,
+    "cat": "transfer",
+    "note": "Gusto is a payroll platform and this transaction is an electronic payroll deposit or payment via their service.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-07-12",
+    "name": "Gusto",
+    "transaction_type": null,
+    "original_description": null,
+    "amount": 5850.0,
+    "cat": "transfer",
+    "note": "Gusto is a payroll platform and this transaction is an electronic payroll deposit or payment via their service.",
+    "confidence": "high"
   }
 ]

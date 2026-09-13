@@ -2,8 +2,11 @@ import os, json
 from dotenv import load_dotenv
 from typing import Literal
 from pydantic import BaseModel
+
 from tavily import TavilyClient
 from anthropic import Anthropic
+
+from categories import CATEGORIES, Category
 
 load_dotenv()
 
@@ -25,10 +28,7 @@ _cache = load_cache()
 
 class MerchantExtraction(BaseModel):
     name: str | None
-    cat: Literal["delivery", "streaming", "fitness", "groceries", 
-    "dining","transport","transport","retail",
-    "software", "medical", "pharmacy", "legal",
-    "childcare", "lender", "religious", "charity", "adult", "recovery", "unknown"]
+    cat: Category
     note: str
     confidence: Literal["high","low"]
 
@@ -46,9 +46,7 @@ def research(merchant):
                 {blob}
                 Return ONLY JSON, no markdown fences:
                 {{"name": "proper company name or null if unclear",
-                "cat": "one of: delivery, streaming, fitness, groceries, dining,
-                        transport, retail, software, medical, pharmacy, legal,
-                        childcare, lender, religious, charity, adult, recovery, unknown",
+                "cat": "exactly one of: {", ".join(CATEGORIES)}",
                 "note": "one plain sentence on what they actually sell",
                 "confidence": "high|low"}}"""
 

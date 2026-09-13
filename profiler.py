@@ -1,14 +1,10 @@
 import json
-import os
 from collections import Counter
 from datetime import date
 
-from anthropic import Anthropic
-from dotenv import load_dotenv
+from categories import EATING_OUT_CATS
 from detect import drop_sensitive
-
-load_dotenv()
-ai = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+from llm import ai, text_of
 
 PROFILE_SYSTEM = """From spending patterns alone, infer who this person is.
 Cover: rough age band, city, whether they live alone, work pattern,
@@ -38,7 +34,7 @@ def profile_facts(txns):
     weekend = sum(t["amount"] for t in txns if weekday(t["date"]) >= 5)
     weekday_spend = total - weekend
 
-    lunch_hours = sum(1 for t in txns if t["cat"] in ("restaurant", "coffee"))
+    eating_out = sum(1 for t in txns if t["cat"] in EATING_OUT_CATS)
 
     dates = sorted(t["date"] for t in txns)
 
@@ -54,7 +50,7 @@ def profile_facts(txns):
         "weekend_spend": round(weekend, 2),
         "grocery_trips": sum(1 for t in txns if t["cat"] == "groceries"),
         "delivery_orders": sum(1 for t in txns if t["cat"] == "delivery"),
-        "eating_out_count": lunch_hours,
+        "eating_out_count": eating_out,
         "distinct_merchants": len(by_merchant),
     }
 
@@ -73,12 +69,12 @@ def write_profile(txns, findings=None):
 
     msg = ai.messages.create(
         model="claude-sonnet-5",
-        max_tokens=400,
+        max_tokens=16000,
         system=PROFILE_SYSTEM,
         messages=[{"role": "user", "content": prompt}],
     )
 
-    return msg.content[0].text.strip()
+    return text_of(msg)
 
 
 if __name__ == "__main__":
