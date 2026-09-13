@@ -17,8 +17,37 @@ finds the patterns, and roasts you out loud.
 
 ## Demo
 
-📹 [Watch the 3-minute demo](youtube.com/watch?is=qGVBvbWs1nM6nvuM&v=1jZU8trfLCk&feature=youtu.be)
+📹 [Watch the 3-minute demo](https://youtube.com/watch?is=qGVBvbWs1nM6nvuM&v=1jZU8trfLCk&feature=youtu.be)
 
+
+## Screenshots
+
+**Paste a statement.** JSON, CSV, or raw text copied straight off your
+statement. Or load the bundled sample, or pull from Plaid Sandbox.
+
+![Paste a statement](docs/screenshots/01-paste.png)
+
+**Watch merchants get identified.** Each descriptor streams in tagged with
+how it was resolved — dictionary hit, live web lookup, bank-internal,
+unidentified, or withheld (a sensitive category filtered before the model
+ever sees it).
+
+![Identifying merchants](docs/screenshots/02-identifying.png)
+
+**See what stood out.** Deterministic pattern detection: subscriptions,
+zombie subscriptions, aspirational buys, double charges, and fees.
+
+![What stood out](docs/screenshots/03-findings.png)
+
+**Read the profile.** Claude infers who you appear to be, with every claim
+tagged `[observed]` or `[inferred]`.
+
+![Who you appear to be](docs/screenshots/04-profile.png)
+
+**Get roasted.** Grounded in the findings above, then read aloud by
+ElevenLabs.
+
+![The roast](docs/screenshots/05-roast.png)
 
 ## Safety
 
