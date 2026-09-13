@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-06-15",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": "CAVA MEZZE GRILL NEW YORK NY 3929",
+    "amount": 14.97,
+    "cat": "restaurant",
+    "note": "fast casual"
+  }
+]

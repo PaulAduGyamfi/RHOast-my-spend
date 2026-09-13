@@ -10,7 +10,7 @@ def normalize(r):
     }
 
 def from_plaid(api_response):
-    return [normalise({
+    return [normalize({
     "date": t["date"],
     "name": t["merchant_name"],
     "transaction_type": t["transaction_code"],
@@ -21,4 +21,20 @@ def from_plaid(api_response):
 def from_sampleJson(path="sample.json"):
     with open(path) as f:
         rows = json.load(f)
-    return [normalise(r) for r in rows]
+    return [from_plaid({"added": rows})][0]
+
+def load_transactions(live=False, path="sample.json"):
+    """The only function the rest of the pipeline calls."""
+    if live:
+        from plaid_client import fetch_transactions   # write this when you wire Plaid
+        return from_plaid(fetch_transactions())
+    return from_sampleJson(path)
+
+if __name__ == "__main__":
+    txns = load_transactions()
+    print(f"{len(txns)} transactions")
+    print(f"{txns[0]['date']} .. {txns[-1]['date']}")
+    print(f"net ${sum(t['amount'] for t in txns):,.2f}")
+    print()
+    for t in txns[:3]:
+        print(t)

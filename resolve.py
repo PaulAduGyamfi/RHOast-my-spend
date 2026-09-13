@@ -1,6 +1,8 @@
 import re
 import json
 from collections import Counter
+from research import research
+from ingest import load_transactions
 from known_merchants import KNOWN, REFUSE_PREFIXES, BANK_INTERNAL, RESELLER_PREFIXES, SENSITIVE_CATS
 
 _KEYS = list(KNOWN)
@@ -43,7 +45,26 @@ def resolve(descriptor):
         if key.upper() in d:
             return "known", KNOWN[key]
  
-    return "research", descriptor # Tavily
+    return "research", clean(descriptor)
+
+
+def enrich(txns):
+    out = []
+    for t in txns:
+        status, payload = resolve(t["name"])
+
+        if status == "research":
+            info = research(payload)
+        elif status == "refuse":
+            info = {"name": None, "cat": "unknown", "note": ""}
+        else:
+            info = payload
+
+        if is_sensitive(info):
+            continue
+
+        out.append({**t, **info})
+    return out
  
  
 def is_sensitive(entry):
@@ -51,12 +72,9 @@ def is_sensitive(entry):
 
 
 if __name__ == "__main__":
-     with open("sample.json") as f:
-        STATUS = ["known", "research", "refuse", "internal"]
-        rows = json.load(f)
-
-        tally = Counter(resolve(r["name"])[0] for r in rows)
-
-        for status, n in tally.most_common():
-            print(f"{status:10} {n}")
+    txns = load_transactions()
+    enriched = enrich(txns)
+    with open("enriched.json", "w") as f:
+        json.dump(enriched, f, indent=2)
+    print(f"wrote {len(enriched)} enriched transactions")
  

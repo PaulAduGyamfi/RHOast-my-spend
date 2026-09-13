@@ -53,7 +53,7 @@ def research(merchant):
                 "confidence": "high|low"}}"""
 
     msg = ai.messages.parse(
-        model="claude-sonnet-4-6", max_tokens=300,
+        model="claude-sonnet-5", max_tokens=300,
         messages=[{"role":"user","content":prompt}],
         output_format=MerchantExtraction)
 
