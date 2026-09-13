@@ -1,413 +1,1723 @@
 [
   {
-    "date": "2026-09-11",
-    "name": "Uber",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 5.4,
-    "cat": "rideshare",
-    "note": "Uber provides ridesharing services connecting riders with drivers.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-09-08",
-    "name": "McDonald's",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 12.0,
+    "date": "2026-06-15",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": "CAVA MEZZE GRILL NEW YORK NY 3929",
+    "amount": 14.97,
     "cat": "restaurant",
-    "note": "fast food"
+    "note": "fast casual"
   },
   {
-    "date": "2026-09-08",
-    "name": "Starbucks",
-    "transaction_type": null,
+    "date": "2026-06-15",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
     "original_description": null,
-    "amount": 4.33,
+    "amount": 6.18,
     "cat": "coffee",
-    "note": "coffee chain"
+    "note": "NYC coffee chain"
   },
   {
-    "date": "2026-09-07",
-    "name": "The Fun Company",
-    "transaction_type": null,
+    "date": "2026-06-15",
+    "name": "MTA",
+    "transaction_type": "purchase",
     "original_description": null,
-    "amount": 89.4,
-    "cat": "retail",
-    "note": "Retail store selling toys, games, and teacher supplies both in-store and online.",
-    "confidence": "low"
+    "amount": 2.9,
+    "cat": "transit",
+    "note": "NYC subway and bus"
   },
   {
-    "date": "2026-08-25",
-    "name": "Uber",
-    "transaction_type": null,
+    "date": "2026-06-16",
+    "name": "Cava",
+    "transaction_type": "purchase",
     "original_description": null,
-    "amount": 6.33,
-    "cat": "rideshare",
-    "note": "Uber provides ridesharing services connecting riders with drivers.",
-    "confidence": "high"
+    "amount": 13.76,
+    "cat": "restaurant",
+    "note": "fast casual"
   },
   {
-    "date": "2026-09-11",
-    "name": "CREDIT CARD 3333 PAYMENT *//",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 25.0,
-    "cat": "transfer",
-    "note": "Generic credit card bill payment transaction, not a specific merchant.",
-    "confidence": "high"
+    "date": "2026-06-16",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*CHIPOTLE BROOKLYN NY 9016",
+    "amount": 31.16,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
   },
   {
-    "date": "2026-09-10",
-    "name": "CD DEPOSIT .INITIAL.",
-    "transaction_type": null,
+    "date": "2026-06-17",
+    "name": "Brooklyn Boulders Gowanus",
+    "transaction_type": "membership fee",
     "original_description": null,
-    "amount": 1000.0,
-    "cat": "transfer",
-    "note": "Initial deposit into a certificate of deposit account, a bank savings transfer rather than a purchase.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-09-09",
-    "name": "Touchstone Climbing",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 78.5,
+    "amount": 1164.0,
     "cat": "fitness",
-    "note": "Operates climbing and fitness gyms across California offering climbing, yoga, and weight training.",
+    "note": "A climbing gym offering bouldering, fitness classes, and related amenities.",
     "confidence": "high"
   },
   {
-    "date": "2026-08-27",
-    "name": "United",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
-    "cat": "travel",
-    "note": "airline"
-  },
-  {
-    "date": "2026-08-22",
-    "name": "Tectra",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
-    "cat": "unknown",
-    "note": "Ambiguous merchant possibly related to software development or real estate, unclear from bank statement context.",
-    "confidence": "low"
-  },
-  {
-    "date": "2026-08-21",
-    "name": "Madison Bicycle Shop",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
-    "cat": "retail",
-    "note": "A bicycle shop selling and servicing bikes and related gear.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-08-21",
-    "name": "KFC",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
+    "date": "2026-06-17",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": "CAVA MEZZE GRILL NEW YORK NY 7127",
+    "amount": 16.35,
     "cat": "restaurant",
-    "note": "Fast food chicken restaurant chain known for fried chicken",
-    "confidence": "high"
+    "note": "fast casual"
   },
   {
-    "date": "2026-08-21",
-    "name": "AUTOMATIC PAYMENT - THANK",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 2078.5,
-    "cat": "transfer",
-    "note": "Automatic payment applied from a bank account to pay off a credit card or bill balance.",
-    "confidence": "low"
+    "date": "2026-06-17",
+    "name": "Evernote",
+    "transaction_type": "direct debit",
+    "original_description": "EVERNOTE CORPORATION NEW YORK NY 3494",
+    "amount": 14.99,
+    "cat": "software",
+    "note": "notes subscription"
   },
   {
-    "date": "2026-09-10",
-    "name": "Gusto",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 5850.0,
-    "cat": "transfer",
-    "note": "Gusto is a payroll platform and this transaction is an electronic payroll deposit or payment via their service.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-08-12",
-    "name": "Uber",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 5.4,
-    "cat": "rideshare",
-    "note": "Uber provides ridesharing services connecting riders with drivers.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-08-09",
-    "name": "McDonald's",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 12.0,
-    "cat": "restaurant",
-    "note": "fast food"
-  },
-  {
-    "date": "2026-08-09",
+    "date": "2026-06-17",
     "name": "Starbucks",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 4.33,
+    "transaction_type": "purchase",
+    "original_description": "STARBUCKS STORE 08812 NEW YORK NY 6551",
+    "amount": 7.09,
     "cat": "coffee",
     "note": "coffee chain"
   },
   {
-    "date": "2026-08-08",
-    "name": "The Fun Company",
-    "transaction_type": null,
+    "date": "2026-06-18",
+    "name": "Babbel",
+    "transaction_type": "membership fee",
     "original_description": null,
-    "amount": 89.4,
-    "cat": "retail",
-    "note": "Retail store selling toys, games, and teacher supplies both in-store and online.",
-    "confidence": "low"
+    "amount": 199.0,
+    "cat": "education",
+    "note": "language app, annual plan, low completion rates"
   },
   {
-    "date": "2026-07-26",
-    "name": "Uber",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 6.33,
-    "cat": "rideshare",
-    "note": "Uber provides ridesharing services connecting riders with drivers.",
-    "confidence": "high"
+    "date": "2026-06-18",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*SWEETGREEN BROOKLYN NY 8684",
+    "amount": 29.76,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
   },
   {
-    "date": "2026-07-13",
-    "name": "Uber",
-    "transaction_type": null,
+    "date": "2026-06-18",
+    "name": "Pret A Manger",
+    "transaction_type": "purchase",
     "original_description": null,
-    "amount": 5.4,
-    "cat": "rideshare",
-    "note": "Uber provides ridesharing services connecting riders with drivers.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-07-10",
-    "name": "McDonald's",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 12.0,
+    "amount": 17.6,
     "cat": "restaurant",
-    "note": "fast food"
+    "note": "fast casual"
   },
   {
-    "date": "2026-07-10",
-    "name": "Starbucks",
-    "transaction_type": null,
+    "date": "2026-06-19",
+    "name": "Spotify",
+    "transaction_type": "direct debit",
     "original_description": null,
-    "amount": 4.33,
-    "cat": "coffee",
-    "note": "coffee chain"
+    "amount": 11.99,
+    "cat": "streaming",
+    "note": "music subscription"
   },
   {
-    "date": "2026-07-09",
-    "name": "The Fun Company",
-    "transaction_type": null,
+    "date": "2026-06-19",
+    "name": "The Long Island Bar",
+    "transaction_type": "purchase",
+    "original_description": "THE LONG ISLAND BAR QUEENS NY 4338",
+    "amount": 45.48,
+    "cat": "restaurant",
+    "note": "A bar and restaurant serving cocktails and American comfort food like burgers and cheese curds.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-06-19",
+    "name": "Uber Eats",
+    "transaction_type": "purchase",
+    "original_description": "UBER EATS BROOKLYN NY 8570",
+    "amount": 35.79,
+    "cat": "delivery",
+    "note": "food delivery, plus service and delivery fees"
+  },
+  {
+    "date": "2026-06-20",
+    "name": "Trader Joe's",
+    "transaction_type": "purchase",
+    "original_description": "TRADER JOE'S #558 NEW YORK NY 8580",
+    "amount": 32.81,
+    "cat": "groceries",
+    "note": "groceries"
+  },
+  {
+    "date": "2026-06-21",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*XI'AN FAMOUS FOODS LONG IS CITY NY 3115",
+    "amount": 35.01,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-06-21",
+    "name": "Lululemon",
+    "transaction_type": "purchase",
     "original_description": null,
-    "amount": 89.4,
+    "amount": 64.0,
     "cat": "retail",
-    "note": "Retail store selling toys, games, and teacher supplies both in-store and online.",
-    "confidence": "low"
+    "note": "athletic apparel, premium pricing"
+  },
+  {
+    "date": "2026-06-21",
+    "name": "REI",
+    "transaction_type": "purchase",
+    "original_description": "REI *BROOKLYN NEW YORK NY 8237",
+    "amount": 187.43,
+    "cat": "retail",
+    "note": "outdoor gear, often bought alongside a new hobby"
+  },
+  {
+    "date": "2026-06-22",
+    "name": "Chipotle",
+    "transaction_type": "purchase",
+    "original_description": "CHIPOTLE 2482 NEW YORK NY 9244",
+    "amount": 18.08,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-06-22",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": "JOE COFFEE COMPANY BROOKLYN NY 2798",
+    "amount": 6.87,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-06-22",
+    "name": "Max",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 16.99,
+    "cat": "streaming",
+    "note": "video subscription, formerly HBO Max"
+  },
+  {
+    "date": "2026-06-23",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": "CAVA MEZZE GRILL QUEENS NY 2329",
+    "amount": 19.07,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-06-23",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*HAN DYNASTY BROOKLYN NY 3341",
+    "amount": 30.58,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-06-24",
+    "name": "Apple",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 2.99,
+    "cat": "software",
+    "note": "App Store or iCloud, bundles many subscriptions"
+  },
+  {
+    "date": "2026-06-24",
+    "name": "ATM withdrawal",
+    "transaction_type": "atm",
+    "original_description": null,
+    "amount": 100.0,
+    "cat": "cash",
+    "note": "cash out, untraceable after this point"
+  },
+  {
+    "date": "2026-06-25",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 31.63,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-06-26",
+    "name": "Devoci\u00f3n",
+    "transaction_type": "purchase",
+    "original_description": "DEVOCION BROOKLYN NEW YORK NY 1907",
+    "amount": 7.28,
+    "cat": "coffee",
+    "note": "Brooklyn specialty coffee"
   },
   {
     "date": "2026-06-26",
     "name": "Uber",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 6.33,
+    "transaction_type": "purchase",
+    "original_description": "UBER *TRIP QUEENS NY 5220",
+    "amount": 20.14,
     "cat": "rideshare",
-    "note": "Uber provides ridesharing services connecting riders with drivers.",
-    "confidence": "high"
+    "note": "ride hailing, surge pricing"
   },
   {
-    "date": "2026-08-12",
-    "name": "CREDIT CARD 3333 PAYMENT *//",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 25.0,
-    "cat": "transfer",
-    "note": "Generic credit card bill payment transaction, not a specific merchant.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-07-13",
-    "name": "CREDIT CARD 3333 PAYMENT *//",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 25.0,
-    "cat": "transfer",
-    "note": "Generic credit card bill payment transaction, not a specific merchant.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-08-11",
-    "name": "CD DEPOSIT .INITIAL.",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 1000.0,
-    "cat": "transfer",
-    "note": "Initial deposit into a certificate of deposit account, a bank savings transfer rather than a purchase.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-07-12",
-    "name": "CD DEPOSIT .INITIAL.",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 1000.0,
-    "cat": "transfer",
-    "note": "Initial deposit into a certificate of deposit account, a bank savings transfer rather than a purchase.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-08-10",
-    "name": "Touchstone Climbing",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 78.5,
-    "cat": "fitness",
-    "note": "Operates climbing and fitness gyms across California offering climbing, yoga, and weight training.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-07-28",
-    "name": "United",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
-    "cat": "travel",
-    "note": "airline"
-  },
-  {
-    "date": "2026-07-23",
-    "name": "Tectra",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
-    "cat": "unknown",
-    "note": "Ambiguous merchant possibly related to software development or real estate, unclear from bank statement context.",
-    "confidence": "low"
-  },
-  {
-    "date": "2026-07-22",
-    "name": "Madison Bicycle Shop",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
-    "cat": "retail",
-    "note": "A bicycle shop selling and servicing bikes and related gear.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-07-22",
-    "name": "KFC",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
-    "cat": "restaurant",
-    "note": "Fast food chicken restaurant chain known for fried chicken",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-07-22",
-    "name": "AUTOMATIC PAYMENT - THANK",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 2078.5,
-    "cat": "transfer",
-    "note": "Automatic payment applied from a bank account to pay off a credit card or bill balance.",
-    "confidence": "low"
-  },
-  {
-    "date": "2026-07-11",
-    "name": "Touchstone Climbing",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 78.5,
-    "cat": "fitness",
-    "note": "Operates climbing and fitness gyms across California offering climbing, yoga, and weight training.",
-    "confidence": "high"
+    "date": "2026-06-27",
+    "name": "Lyft",
+    "transaction_type": "purchase",
+    "original_description": "LYFT *RIDE NEW YORK NY 6796",
+    "amount": 28.82,
+    "cat": "rideshare",
+    "note": "ride hailing"
   },
   {
     "date": "2026-06-28",
-    "name": "United",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
-    "cat": "travel",
-    "note": "airline"
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*JOE'S PIZZA QUEENS NY 1914",
+    "amount": 27.88,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
   },
   {
-    "date": "2026-06-23",
-    "name": "Tectra",
+    "date": "2026-06-28",
+    "name": "Uber",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 20.7,
+    "cat": "rideshare",
+    "note": "ride hailing, surge pricing"
+  },
+  {
+    "date": "2026-06-29",
+    "name": "Devoci\u00f3n",
+    "transaction_type": "purchase",
+    "original_description": "DEVOCION BROOKLYN NEW YORK NY 7689",
+    "amount": 7.37,
+    "cat": "coffee",
+    "note": "Brooklyn specialty coffee"
+  },
+  {
+    "date": "2026-06-29",
+    "name": "SQ *MERCHANT 4471",
     "transaction_type": null,
     "original_description": null,
-    "amount": 500.0,
+    "amount": 47.88,
     "cat": "unknown",
-    "note": "Ambiguous merchant possibly related to software development or real estate, unclear from bank statement context.",
-    "confidence": "low"
+    "note": ""
   },
   {
-    "date": "2026-06-22",
-    "name": "Madison Bicycle Shop",
-    "transaction_type": null,
+    "date": "2026-06-29",
+    "name": "Sweetgreen",
+    "transaction_type": "purchase",
     "original_description": null,
-    "amount": 500.0,
-    "cat": "retail",
-    "note": "A bicycle shop selling and servicing bikes and related gear.",
-    "confidence": "high"
-  },
-  {
-    "date": "2026-06-22",
-    "name": "KFC",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 500.0,
+    "amount": 14.32,
     "cat": "restaurant",
-    "note": "Fast food chicken restaurant chain known for fried chicken",
+    "note": "fast casual salads, $16+ average"
+  },
+  {
+    "date": "2026-06-30",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 32.3,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-01",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": "CAVA MEZZE GRILL QUEENS NY 3384",
+    "amount": 16.09,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-07-01",
+    "name": "Variety Coffee",
+    "transaction_type": "purchase",
+    "original_description": "VARIETY COFFEE ROASTERS LONG IS CITY NY 9177",
+    "amount": 6.32,
+    "cat": "coffee",
+    "note": "Brooklyn coffee roaster"
+  },
+  {
+    "date": "2026-07-01",
+    "name": "ZELLE PAYMENT TO S KOWALCZYK",
+    "transaction_type": "transfer",
+    "original_description": "ZELLE PAYMENT TO S KOWALCZYK REF#987226",
+    "amount": 2850.0,
+    "cat": "unknown",
+    "note": ""
+  },
+  {
+    "date": "2026-07-02",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 14.12,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-07-02",
+    "name": "Citi Bike",
+    "transaction_type": "membership fee",
+    "original_description": "CITIBIKE ANNUAL MEMBERSHIP LONG IS CITY NY 4046",
+    "amount": 219.0,
+    "cat": "transit",
+    "note": "bike share, annual membership"
+  },
+  {
+    "date": "2026-07-02",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*XI'AN FAMOUS FOODS LONG IS CITY NY 1182",
+    "amount": 33.09,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-03",
+    "name": "Blue Bottle",
+    "transaction_type": "purchase",
+    "original_description": "BLUE BOTTLE COFFEE BROOKLYN NY 6528",
+    "amount": 6.99,
+    "cat": "coffee",
+    "note": "specialty coffee, $6+ per cup"
+  },
+  {
+    "date": "2026-07-03",
+    "name": "Notion",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 10.0,
+    "cat": "software",
+    "note": "notes and docs subscription"
+  },
+  {
+    "date": "2026-07-03",
+    "name": "The Long Island Bar",
+    "transaction_type": "purchase",
+    "original_description": "THE LONG ISLAND BAR QUEENS NY 7323",
+    "amount": 61.55,
+    "cat": "restaurant",
+    "note": "A bar and restaurant serving cocktails and American comfort food like burgers and cheese curds.",
     "confidence": "high"
   },
   {
-    "date": "2026-06-22",
-    "name": "AUTOMATIC PAYMENT - THANK",
-    "transaction_type": null,
-    "original_description": null,
-    "amount": 2078.5,
-    "cat": "transfer",
-    "note": "Automatic payment applied from a bank account to pay off a credit card or bill balance.",
-    "confidence": "low"
+    "date": "2026-07-04",
+    "name": "Trader Joe's",
+    "transaction_type": "purchase",
+    "original_description": "TRADER JOE'S #558 LONG IS CITY NY 9755",
+    "amount": 44.21,
+    "cat": "groceries",
+    "note": "groceries"
   },
   {
-    "date": "2026-08-11",
-    "name": "Gusto",
-    "transaction_type": null,
+    "date": "2026-07-05",
+    "name": "Amazon",
+    "transaction_type": "purchase",
     "original_description": null,
-    "amount": 5850.0,
-    "cat": "transfer",
-    "note": "Gusto is a payroll platform and this transaction is an electronic payroll deposit or payment via their service.",
+    "amount": 41.6,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-07-05",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*THAI VILLA LONG IS CITY NY 7530",
+    "amount": 27.71,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-06",
+    "name": "MTA",
+    "transaction_type": "purchase",
+    "original_description": "MTA*NYCT PAYGO NEW YORK NY 6102",
+    "amount": 2.9,
+    "cat": "transit",
+    "note": "NYC subway and bus"
+  },
+  {
+    "date": "2026-07-06",
+    "name": "Netflix",
+    "transaction_type": "direct debit",
+    "original_description": "NETFLIX.COM NEW YORK NY 6089",
+    "amount": 15.49,
+    "cat": "streaming",
+    "note": "video subscription"
+  },
+  {
+    "date": "2026-07-07",
+    "name": "Chipotle",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 18.36,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-07-07",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*JOE'S PIZZA LONG IS CITY NY 4581",
+    "amount": 25.49,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-08",
+    "name": "Con Edison",
+    "transaction_type": "bill payment",
+    "original_description": "CON EDISON OF NEW YORK NEW YORK NY 7284",
+    "amount": 101.2,
+    "cat": "utilities",
+    "note": "electricity and gas"
+  },
+  {
+    "date": "2026-07-08",
+    "name": "Devoci\u00f3n",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 7.08,
+    "cat": "coffee",
+    "note": "Brooklyn specialty coffee"
+  },
+  {
+    "date": "2026-07-09",
+    "name": "CCleaner",
+    "transaction_type": "direct debit",
+    "original_description": "CLEVERBRIDGE*CCLEANER BROOKLYN NY 8173",
+    "amount": 2.99,
+    "cat": "software",
+    "note": "Sells a PC/Mac/mobile system cleaning and optimization utility, often as a subscription.",
     "confidence": "high"
+  },
+  {
+    "date": "2026-07-09",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*JOE'S PIZZA LONG IS CITY NY 2141",
+    "amount": 29.78,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-10",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": "JOE COFFEE COMPANY LONG IS CITY NY 8816",
+    "amount": 5.58,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-07-10",
+    "name": "Uber",
+    "transaction_type": "purchase",
+    "original_description": "UBER *TRIP LONG IS CITY NY 8060",
+    "amount": 24.65,
+    "cat": "rideshare",
+    "note": "ride hailing, surge pricing"
+  },
+  {
+    "date": "2026-07-10",
+    "name": "Uber Eats",
+    "transaction_type": "purchase",
+    "original_description": "UBER EATS QUEENS NY 3611",
+    "amount": 41.03,
+    "cat": "delivery",
+    "note": "food delivery, plus service and delivery fees"
+  },
+  {
+    "date": "2026-07-11",
+    "name": "Amazon",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 53.46,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-07-11",
+    "name": "Lyft",
+    "transaction_type": "purchase",
+    "original_description": "LYFT *RIDE QUEENS NY 4186",
+    "amount": 30.51,
+    "cat": "rideshare",
+    "note": "ride hailing"
+  },
+  {
+    "date": "2026-07-11",
+    "name": "OpenAI",
+    "transaction_type": "direct debit",
+    "original_description": "OPENAI *CHATGPT SUBSCR NEW YORK NY 6658",
+    "amount": 20.0,
+    "cat": "software",
+    "note": "AI subscription"
   },
   {
     "date": "2026-07-12",
-    "name": "Gusto",
-    "transaction_type": null,
+    "name": "DoorDash",
+    "transaction_type": "purchase",
     "original_description": null,
-    "amount": 5850.0,
-    "cat": "transfer",
-    "note": "Gusto is a payroll platform and this transaction is an electronic payroll deposit or payment via their service.",
+    "amount": 25.69,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-12",
+    "name": "Uber",
+    "transaction_type": "purchase",
+    "original_description": "UBER *TRIP LONG IS CITY NY 4166",
+    "amount": 16.57,
+    "cat": "rideshare",
+    "note": "ride hailing, surge pricing"
+  },
+  {
+    "date": "2026-07-12",
+    "name": "Verizon",
+    "transaction_type": "bill payment",
+    "original_description": "VERIZON WIRELESS PAYMENTS NEW YORK NY 5275",
+    "amount": 85.0,
+    "cat": "telecom",
+    "note": "phone or internet"
+  },
+  {
+    "date": "2026-07-13",
+    "name": "Chipotle",
+    "transaction_type": "purchase",
+    "original_description": "CHIPOTLE 2482 NEW YORK NY 7688",
+    "amount": 14.52,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-07-13",
+    "name": "MTA",
+    "transaction_type": "purchase",
+    "original_description": "MTA*NYCT PAYGO LONG IS CITY NY 7551",
+    "amount": 2.9,
+    "cat": "transit",
+    "note": "NYC subway and bus"
+  },
+  {
+    "date": "2026-07-13",
+    "name": "Variety Coffee",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 5.72,
+    "cat": "coffee",
+    "note": "Brooklyn coffee roaster"
+  },
+  {
+    "date": "2026-07-14",
+    "name": "Chipotle",
+    "transaction_type": "purchase",
+    "original_description": "CHIPOTLE 2482 NEW YORK NY 1021",
+    "amount": 15.62,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-07-14",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*CHIPOTLE NEW YORK NY 9374",
+    "amount": 27.48,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-14",
+    "name": "Hulu",
+    "transaction_type": "direct debit",
+    "original_description": "HULU 877-8244858 QUEENS NY 4363",
+    "amount": 17.99,
+    "cat": "streaming",
+    "note": "video subscription"
+  },
+  {
+    "date": "2026-07-15",
+    "name": "Blue Bottle",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 6.66,
+    "cat": "coffee",
+    "note": "specialty coffee, $6+ per cup"
+  },
+  {
+    "date": "2026-07-15",
+    "name": "Sweetgreen",
+    "transaction_type": "purchase",
+    "original_description": "SWEETGREEN NOMAD QUEENS NY 8668",
+    "amount": 17.35,
+    "cat": "restaurant",
+    "note": "fast casual salads, $16+ average"
+  },
+  {
+    "date": "2026-07-15",
+    "name": "TST* 8821",
+    "transaction_type": null,
+    "original_description": "TST* 8821 LONG IS CITY NY 4281",
+    "amount": 12.0,
+    "cat": "unknown",
+    "note": ""
+  },
+  {
+    "date": "2026-07-16",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": "CAVA MEZZE GRILL BROOKLYN NY 6038",
+    "amount": 14.28,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-07-16",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 29.8,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-17",
+    "name": "Evernote",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 14.99,
+    "cat": "software",
+    "note": "notes subscription"
+  },
+  {
+    "date": "2026-07-17",
+    "name": "Rose S Brooklyn",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 48.44,
+    "cat": "restaurant",
+    "note": "Likely a restaurant or eatery located in Brooklyn, possibly named Rose's.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-07-18",
+    "name": "Trader Joe's",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 35.14,
+    "cat": "groceries",
+    "note": "groceries"
+  },
+  {
+    "date": "2026-07-19",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*CHIPOTLE LONG IS CITY NY 4178",
+    "amount": 27.5,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-19",
+    "name": "Late fee",
+    "transaction_type": "late fee",
+    "original_description": "LATE FEE - AMEX PLATINUM REF#932170",
+    "amount": 39.0,
+    "cat": "bank fee",
+    "note": "charged for a missed payment date"
+  },
+  {
+    "date": "2026-07-19",
+    "name": "Spotify",
+    "transaction_type": "direct debit",
+    "original_description": "SPOTIFY USA NEW YORK NY 5338",
+    "amount": 11.99,
+    "cat": "streaming",
+    "note": "music subscription"
+  },
+  {
+    "date": "2026-07-20",
+    "name": "Starbucks",
+    "transaction_type": "purchase",
+    "original_description": "STARBUCKS STORE 08812 NEW YORK NY 3140",
+    "amount": 5.17,
+    "cat": "coffee",
+    "note": "coffee chain"
+  },
+  {
+    "date": "2026-07-21",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*SWEETGREEN NEW YORK NY 6895",
+    "amount": 36.34,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-21",
+    "name": "Pret A Manger",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 18.28,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-07-22",
+    "name": "Amazon",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 17.97,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-07-22",
+    "name": "Max",
+    "transaction_type": "direct debit",
+    "original_description": "MAX.COM QUEENS NY 4009",
+    "amount": 16.99,
+    "cat": "streaming",
+    "note": "video subscription, formerly HBO Max"
+  },
+  {
+    "date": "2026-07-22",
+    "name": "Starbucks",
+    "transaction_type": "purchase",
+    "original_description": "STARBUCKS STORE 08812 QUEENS NY 8804",
+    "amount": 7.19,
+    "cat": "coffee",
+    "note": "coffee chain"
+  },
+  {
+    "date": "2026-07-23",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*MAMOUN'S FALAFEL BROOKLYN NY 9710",
+    "amount": 35.04,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-24",
+    "name": "Apple",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 2.99,
+    "cat": "software",
+    "note": "App Store or iCloud, bundles many subscriptions"
+  },
+  {
+    "date": "2026-07-24",
+    "name": "Clem's Bar",
+    "transaction_type": "purchase",
+    "original_description": "CLEM'S BAR BROOKLYN NY 2881",
+    "amount": 35.38,
+    "cat": "alcohol",
+    "note": "Appears to be a bar/tavern establishment serving drinks based on the name pattern typical of bar businesses.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-07-24",
+    "name": "Starbucks",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 6.77,
+    "cat": "coffee",
+    "note": "coffee chain"
+  },
+  {
+    "date": "2026-07-26",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*LITTLE COLLINS LONG IS CITY NY 1064",
+    "amount": 28.17,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-26",
+    "name": "Key Food",
+    "transaction_type": "purchase",
+    "original_description": "KEY FOOD MARKETPLACE LONG IS CITY NY 1196",
+    "amount": 22.14,
+    "cat": "groceries",
+    "note": "groceries"
+  },
+  {
+    "date": "2026-07-27",
+    "name": "Devoci\u00f3n",
+    "transaction_type": "purchase",
+    "original_description": "DEVOCION BROOKLYN QUEENS NY 5285",
+    "amount": 6.84,
+    "cat": "coffee",
+    "note": "Brooklyn specialty coffee"
+  },
+  {
+    "date": "2026-07-28",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 35.19,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-29",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": "JOE COFFEE COMPANY BROOKLYN NY 7508",
+    "amount": 7.08,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-07-30",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 31.82,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-07-30",
+    "name": "Pret A Manger",
+    "transaction_type": "purchase",
+    "original_description": "PRET A MANGER NEW YORK NY 5786",
+    "amount": 17.62,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-07-31",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 6.62,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-07-31",
+    "name": "Rose S Brooklyn",
+    "transaction_type": "purchase",
+    "original_description": "ROSE'S BROOKLYN QUEENS NY 4761",
+    "amount": 59.55,
+    "cat": "restaurant",
+    "note": "Likely a restaurant or eatery located in Brooklyn, possibly named Rose's.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-07-31",
+    "name": "Uber Eats",
+    "transaction_type": "purchase",
+    "original_description": "UBER EATS BROOKLYN NY 8940",
+    "amount": 39.45,
+    "cat": "delivery",
+    "note": "food delivery, plus service and delivery fees"
+  },
+  {
+    "date": "2026-08-01",
+    "name": "Amazon",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 47.68,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-08-01",
+    "name": "Trader Joe's",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 39.05,
+    "cat": "groceries",
+    "note": "groceries"
+  },
+  {
+    "date": "2026-08-01",
+    "name": "ZELLE PAYMENT TO S KOWALCZYK",
+    "transaction_type": "transfer",
+    "original_description": "ZELLE PAYMENT TO S KOWALCZYK REF#686888",
+    "amount": 2850.0,
+    "cat": "unknown",
+    "note": ""
+  },
+  {
+    "date": "2026-08-02",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*HAN DYNASTY NEW YORK NY 6794",
+    "amount": 32.06,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-02",
+    "name": "Account fee",
+    "transaction_type": "bank charge",
+    "original_description": "MONTHLY SERVICE FEE REF#954801",
+    "amount": 12.0,
+    "cat": "bank fee",
+    "note": "monthly maintenance charge"
+  },
+  {
+    "date": "2026-08-03",
+    "name": "Blue Bottle",
+    "transaction_type": "purchase",
+    "original_description": "BLUE BOTTLE COFFEE BROOKLYN NY 3059",
+    "amount": 7.08,
+    "cat": "coffee",
+    "note": "specialty coffee, $6+ per cup"
+  },
+  {
+    "date": "2026-08-03",
+    "name": "Notion",
+    "transaction_type": "direct debit",
+    "original_description": "NOTION LABS INC NEW YORK NY 9934",
+    "amount": 10.0,
+    "cat": "software",
+    "note": "notes and docs subscription"
+  },
+  {
+    "date": "2026-08-04",
+    "name": "Chipotle",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 14.45,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-08-04",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*MAMOUN'S FALAFEL QUEENS NY 3728",
+    "amount": 30.94,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-04",
+    "name": "PAYPAL *INST XFER",
+    "transaction_type": "transfer",
+    "original_description": "PAYPAL *INST XFER REF#920281",
+    "amount": 64.0,
+    "cat": "unknown",
+    "note": ""
+  },
+  {
+    "date": "2026-08-05",
+    "name": "Variety Coffee",
+    "transaction_type": "purchase",
+    "original_description": "VARIETY COFFEE ROASTERS NEW YORK NY 6572",
+    "amount": 7.02,
+    "cat": "coffee",
+    "note": "Brooklyn coffee roaster"
+  },
+  {
+    "date": "2026-08-06",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*JOE'S PIZZA LONG IS CITY NY 8145",
+    "amount": 31.94,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-06",
+    "name": "Netflix",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 15.49,
+    "cat": "streaming",
+    "note": "video subscription"
+  },
+  {
+    "date": "2026-08-07",
+    "name": "Amazon",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 51.78,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-08-07",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 6.44,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-08-07",
+    "name": "Uber",
+    "transaction_type": "purchase",
+    "original_description": "UBER *TRIP BROOKLYN NY 4786",
+    "amount": 19.92,
+    "cat": "rideshare",
+    "note": "ride hailing, surge pricing"
+  },
+  {
+    "date": "2026-08-08",
+    "name": "Amazon",
+    "transaction_type": "purchase",
+    "original_description": "AMZN Mktp US*2M4K91 BROOKLYN NY 4856",
+    "amount": 48.38,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-08-08",
+    "name": "Con Edison",
+    "transaction_type": "bill payment",
+    "original_description": "CON EDISON OF NEW YORK BROOKLYN NY 3644",
+    "amount": 74.62,
+    "cat": "utilities",
+    "note": "electricity and gas"
+  },
+  {
+    "date": "2026-08-08",
+    "name": "Lyft",
+    "transaction_type": "purchase",
+    "original_description": "LYFT *RIDE NEW YORK NY 8273",
+    "amount": 28.31,
+    "cat": "rideshare",
+    "note": "ride hailing"
+  },
+  {
+    "date": "2026-08-09",
+    "name": "CCleaner",
+    "transaction_type": "direct debit",
+    "original_description": "CLEVERBRIDGE*CCLEANER LONG IS CITY NY 1747",
+    "amount": 2.99,
+    "cat": "software",
+    "note": "Sells a PC/Mac/mobile system cleaning and optimization utility, often as a subscription.",
     "confidence": "high"
+  },
+  {
+    "date": "2026-08-09",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*XI'AN FAMOUS FOODS BROOKLYN NY 5925",
+    "amount": 28.26,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-09",
+    "name": "Uber",
+    "transaction_type": "purchase",
+    "original_description": "UBER *TRIP NEW YORK NY 1184",
+    "amount": 21.1,
+    "cat": "rideshare",
+    "note": "ride hailing, surge pricing"
+  },
+  {
+    "date": "2026-08-10",
+    "name": "MTA",
+    "transaction_type": "purchase",
+    "original_description": "MTA*NYCT PAYGO LONG IS CITY NY 5753",
+    "amount": 2.9,
+    "cat": "transit",
+    "note": "NYC subway and bus"
+  },
+  {
+    "date": "2026-08-11",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 15.37,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-08-11",
+    "name": "ATM withdrawal",
+    "transaction_type": "atm",
+    "original_description": "CHASE ATM WITHDRAWAL W/D REF#175812",
+    "amount": 60.0,
+    "cat": "cash",
+    "note": "cash out, untraceable after this point"
+  },
+  {
+    "date": "2026-08-11",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 27.68,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-11",
+    "name": "OpenAI",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 20.0,
+    "cat": "software",
+    "note": "AI subscription"
+  },
+  {
+    "date": "2026-08-12",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": "JOE COFFEE COMPANY LONG IS CITY NY 6356",
+    "amount": 6.56,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-08-12",
+    "name": "Verizon",
+    "transaction_type": "bill payment",
+    "original_description": "VERIZON WIRELESS PAYMENTS BROOKLYN NY 7171",
+    "amount": 85.0,
+    "cat": "telecom",
+    "note": "phone or internet"
+  },
+  {
+    "date": "2026-08-13",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*LITTLE COLLINS NEW YORK NY 9978",
+    "amount": 30.31,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-14",
+    "name": "DoorDash",
+    "transaction_type": "refund",
+    "original_description": null,
+    "amount": 31.16,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-14",
+    "name": "Hulu",
+    "transaction_type": "direct debit",
+    "original_description": "HULU 877-8244858 LONG IS CITY NY 7546",
+    "amount": 17.99,
+    "cat": "streaming",
+    "note": "video subscription"
+  },
+  {
+    "date": "2026-08-14",
+    "name": "Rose S Brooklyn",
+    "transaction_type": "purchase",
+    "original_description": "ROSE'S BROOKLYN NEW YORK NY 3853",
+    "amount": 51.48,
+    "cat": "restaurant",
+    "note": "Likely a restaurant or eatery located in Brooklyn, possibly named Rose's.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-08-14",
+    "name": "Starbucks",
+    "transaction_type": "purchase",
+    "original_description": "STARBUCKS STORE 08812 BROOKLYN NY 4476",
+    "amount": 6.18,
+    "cat": "coffee",
+    "note": "coffee chain"
+  },
+  {
+    "date": "2026-08-15",
+    "name": "Trader Joe's",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 37.69,
+    "cat": "groceries",
+    "note": "groceries"
+  },
+  {
+    "date": "2026-08-16",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 35.6,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-17",
+    "name": "Cava",
+    "transaction_type": "purchase",
+    "original_description": "CAVA MEZZE GRILL BROOKLYN NY 8122",
+    "amount": 15.48,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-08-17",
+    "name": "Devoci\u00f3n",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 6.38,
+    "cat": "coffee",
+    "note": "Brooklyn specialty coffee"
+  },
+  {
+    "date": "2026-08-17",
+    "name": "Evernote",
+    "transaction_type": "direct debit",
+    "original_description": "EVERNOTE CORPORATION NEW YORK NY 3158",
+    "amount": 14.99,
+    "cat": "software",
+    "note": "notes subscription"
+  },
+  {
+    "date": "2026-08-18",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*SHAKE SHACK NEW YORK NY 5922",
+    "amount": 34.25,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-18",
+    "name": "Sweetgreen",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 15.43,
+    "cat": "restaurant",
+    "note": "fast casual salads, $16+ average"
+  },
+  {
+    "date": "2026-08-19",
+    "name": "Devoci\u00f3n",
+    "transaction_type": "purchase",
+    "original_description": "DEVOCION BROOKLYN NEW YORK NY 8055",
+    "amount": 7.27,
+    "cat": "coffee",
+    "note": "Brooklyn specialty coffee"
+  },
+  {
+    "date": "2026-08-19",
+    "name": "Pret A Manger",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 15.41,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-08-19",
+    "name": "Spotify",
+    "transaction_type": "direct debit",
+    "original_description": "SPOTIFY USA BROOKLYN NY 9240",
+    "amount": 11.99,
+    "cat": "streaming",
+    "note": "music subscription"
+  },
+  {
+    "date": "2026-08-19",
+    "name": "VENMO PAYMENT 1042",
+    "transaction_type": "transfer",
+    "original_description": "VENMO PAYMENT 1042 REF#567922",
+    "amount": 35.0,
+    "cat": "unknown",
+    "note": ""
+  },
+  {
+    "date": "2026-08-20",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 26.69,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-22",
+    "name": "Max",
+    "transaction_type": "direct debit",
+    "original_description": "MAX.COM LONG IS CITY NY 8121",
+    "amount": 16.99,
+    "cat": "streaming",
+    "note": "video subscription, formerly HBO Max"
+  },
+  {
+    "date": "2026-08-23",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 31.75,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-24",
+    "name": "Amazon",
+    "transaction_type": "purchase",
+    "original_description": "AMZN Mktp US*2M4K91 BROOKLYN NY 7055",
+    "amount": 44.37,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-08-24",
+    "name": "Amazon",
+    "transaction_type": "purchase",
+    "original_description": "AMZN Mktp US*2M4K91 NEW YORK NY 8940",
+    "amount": 40.53,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-08-24",
+    "name": "Apple",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 2.99,
+    "cat": "software",
+    "note": "App Store or iCloud, bundles many subscriptions"
+  },
+  {
+    "date": "2026-08-24",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": "JOE COFFEE COMPANY QUEENS NY 4304",
+    "amount": 7.01,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-08-24",
+    "name": "MTA",
+    "transaction_type": "purchase",
+    "original_description": "MTA*NYCT PAYGO NEW YORK NY 3205",
+    "amount": 2.9,
+    "cat": "transit",
+    "note": "NYC subway and bus"
+  },
+  {
+    "date": "2026-08-25",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*HAN DYNASTY NEW YORK NY 3824",
+    "amount": 33.45,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-26",
+    "name": "Variety Coffee",
+    "transaction_type": "purchase",
+    "original_description": "VARIETY COFFEE ROASTERS LONG IS CITY NY 3749",
+    "amount": 6.87,
+    "cat": "coffee",
+    "note": "Brooklyn coffee roaster"
+  },
+  {
+    "date": "2026-08-27",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*THAI VILLA BROOKLYN NY 4845",
+    "amount": 32.36,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-28",
+    "name": "Clem's Bar",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 34.82,
+    "cat": "alcohol",
+    "note": "Appears to be a bar/tavern establishment serving drinks based on the name pattern typical of bar businesses.",
+    "confidence": "low"
+  },
+  {
+    "date": "2026-08-28",
+    "name": "Devoci\u00f3n",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 6.92,
+    "cat": "coffee",
+    "note": "Brooklyn specialty coffee"
+  },
+  {
+    "date": "2026-08-28",
+    "name": "Uber",
+    "transaction_type": "purchase",
+    "original_description": "UBER *TRIP QUEENS NY 9591",
+    "amount": 22.24,
+    "cat": "rideshare",
+    "note": "ride hailing, surge pricing"
+  },
+  {
+    "date": "2026-08-28",
+    "name": "Uber Eats",
+    "transaction_type": "purchase",
+    "original_description": "UBER EATS NEW YORK NY 5104",
+    "amount": 32.24,
+    "cat": "delivery",
+    "note": "food delivery, plus service and delivery fees"
+  },
+  {
+    "date": "2026-08-29",
+    "name": "Lyft",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 27.82,
+    "cat": "rideshare",
+    "note": "ride hailing"
+  },
+  {
+    "date": "2026-08-29",
+    "name": "Trader Joe's",
+    "transaction_type": "purchase",
+    "original_description": "TRADER JOE'S #558 QUEENS NY 4098",
+    "amount": 49.69,
+    "cat": "groceries",
+    "note": "groceries"
+  },
+  {
+    "date": "2026-08-30",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 28.23,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-08-30",
+    "name": "Uber",
+    "transaction_type": "purchase",
+    "original_description": "UBER *TRIP BROOKLYN NY 8155",
+    "amount": 18.01,
+    "cat": "rideshare",
+    "note": "ride hailing, surge pricing"
+  },
+  {
+    "date": "2026-08-30",
+    "name": "Whole Foods",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 18.62,
+    "cat": "groceries",
+    "note": "groceries, premium pricing"
+  },
+  {
+    "date": "2026-08-31",
+    "name": "Starbucks",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 6.4,
+    "cat": "coffee",
+    "note": "coffee chain"
+  },
+  {
+    "date": "2026-09-01",
+    "name": "Chipotle",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 16.81,
+    "cat": "restaurant",
+    "note": "fast casual"
+  },
+  {
+    "date": "2026-09-01",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 32.02,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-09-01",
+    "name": "ZELLE PAYMENT TO S KOWALCZYK",
+    "transaction_type": "transfer",
+    "original_description": null,
+    "amount": 2850.0,
+    "cat": "unknown",
+    "note": ""
+  },
+  {
+    "date": "2026-09-03",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*JOE'S PIZZA LONG IS CITY NY 1166",
+    "amount": 34.01,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-09-03",
+    "name": "Notion",
+    "transaction_type": "direct debit",
+    "original_description": "NOTION LABS INC LONG IS CITY NY 4215",
+    "amount": 10.0,
+    "cat": "software",
+    "note": "notes and docs subscription"
+  },
+  {
+    "date": "2026-09-03",
+    "name": "POS DEBIT 0914 #3388",
+    "transaction_type": null,
+    "original_description": "POS DEBIT 0914 #3388 BROOKLYN NY 3609",
+    "amount": 88.4,
+    "cat": "unknown",
+    "note": ""
+  },
+  {
+    "date": "2026-09-04",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": "JOE COFFEE COMPANY NEW YORK NY 5998",
+    "amount": 5.53,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-09-04",
+    "name": "Uber Eats",
+    "transaction_type": "purchase",
+    "original_description": "UBER EATS NEW YORK NY 8412",
+    "amount": 31.55,
+    "cat": "delivery",
+    "note": "food delivery, plus service and delivery fees"
+  },
+  {
+    "date": "2026-09-05",
+    "name": "ATM withdrawal",
+    "transaction_type": "bank charge",
+    "original_description": null,
+    "amount": 3.0,
+    "cat": "cash",
+    "note": "cash out, untraceable after this point"
+  },
+  {
+    "date": "2026-09-06",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*XI'AN FAMOUS FOODS LONG IS CITY NY 4794",
+    "amount": 26.57,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-09-06",
+    "name": "Netflix",
+    "transaction_type": "direct debit",
+    "original_description": null,
+    "amount": 17.99,
+    "cat": "streaming",
+    "note": "video subscription"
+  },
+  {
+    "date": "2026-09-08",
+    "name": "Con Edison",
+    "transaction_type": "bill payment",
+    "original_description": null,
+    "amount": 110.43,
+    "cat": "utilities",
+    "note": "electricity and gas"
+  },
+  {
+    "date": "2026-09-08",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": "DOORDASH*HAN DYNASTY BROOKLYN NY 6879",
+    "amount": 33.71,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-09-09",
+    "name": "CCleaner",
+    "transaction_type": "direct debit",
+    "original_description": "CLEVERBRIDGE*CCLEANER QUEENS NY 5013",
+    "amount": 2.99,
+    "cat": "software",
+    "note": "Sells a PC/Mac/mobile system cleaning and optimization utility, often as a subscription.",
+    "confidence": "high"
+  },
+  {
+    "date": "2026-09-09",
+    "name": "Joe Coffee",
+    "transaction_type": "purchase",
+    "original_description": "JOE COFFEE COMPANY BROOKLYN NY 1352",
+    "amount": 5.98,
+    "cat": "coffee",
+    "note": "NYC coffee chain"
+  },
+  {
+    "date": "2026-09-10",
+    "name": "DoorDash",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 26.97,
+    "cat": "delivery",
+    "note": "food delivery, 15-30% markup vs walking in"
+  },
+  {
+    "date": "2026-09-11",
+    "name": "Amazon",
+    "transaction_type": "purchase",
+    "original_description": null,
+    "amount": 54.23,
+    "cat": "retail",
+    "note": "online marketplace, descriptor hides what was bought"
+  },
+  {
+    "date": "2026-09-11",
+    "name": "OpenAI",
+    "transaction_type": "direct debit",
+    "original_description": "OPENAI *CHATGPT SUBSCR LONG IS CITY NY 2154",
+    "amount": 20.0,
+    "cat": "software",
+    "note": "AI subscription"
+  },
+  {
+    "date": "2026-09-11",
+    "name": "Uber Eats",
+    "transaction_type": "purchase",
+    "original_description": "UBER EATS QUEENS NY 2867",
+    "amount": 40.64,
+    "cat": "delivery",
+    "note": "food delivery, plus service and delivery fees"
+  },
+  {
+    "date": "2026-09-11",
+    "name": "Variety Coffee",
+    "transaction_type": "purchase",
+    "original_description": "VARIETY COFFEE ROASTERS BROOKLYN NY 7058",
+    "amount": 6.75,
+    "cat": "coffee",
+    "note": "Brooklyn coffee roaster"
+  },
+  {
+    "date": "2026-09-12",
+    "name": "Trader Joe's",
+    "transaction_type": "purchase",
+    "original_description": "TRADER JOE'S #558 QUEENS NY 5306",
+    "amount": 49.12,
+    "cat": "groceries",
+    "note": "groceries"
+  },
+  {
+    "date": "2026-09-12",
+    "name": "Verizon",
+    "transaction_type": "bill payment",
+    "original_description": null,
+    "amount": 85.0,
+    "cat": "telecom",
+    "note": "phone or internet"
   }
 ]
